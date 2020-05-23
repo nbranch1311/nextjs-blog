@@ -2,15 +2,14 @@
 import { jsx } from "@emotion/core";
 import Head from "next/head";
 import Layout from "../../components/Layout";
-import content from "./FirstPageConst";
 
 const FirstPost = () => {
   return (
     <Layout>
       <Head>
-        <title>{content.intro}</title>
+        <title>{`Howdy, I'm Nick. I'm a Front End Software Engineer.`}</title>
       </Head>
-      <p>{content.intro}</p>
+      <p>{`Howdy, I'm Nick. I'm a Front End Software Engineer.`}</p>
     </Layout>
   );
 };
