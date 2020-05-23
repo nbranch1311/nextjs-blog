@@ -1,0 +1,27 @@
+{
+  "name": "learn-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "commit": "git-cz",
+    "lint": "yarn eslint \"./src/**/*.+(js|jsx|json)\" || prettier --check \"./src/**/*.+(js|jsx|json)\"",
+    "lint:fix": "yarn eslint --fix \"./src/**/*.+(js|jsx|json)\" || prettier --write \"./src/**/*.+(js|jsx|json)\""
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "emotion": "^10.0.27",
+    "gray-matter": "^4.0.2",
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "yarn": "^1.22.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-react": "^7.20.0"
+  }
+}
