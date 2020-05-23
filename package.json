@@ -7,8 +7,8 @@
     "build": "next build",
     "start": "next start",
     "commit": "git-cz",
-    "lint": "yarn eslint \"./src/**/*.+(js|jsx|json)\" || prettier --check \"./src/**/*.+(js|jsx|json)\"",
-    "lint:fix": "yarn eslint --fix \"./src/**/*.+(js|jsx|json)\" || prettier --write \"./src/**/*.+(js|jsx|json)\""
+    "lint": "yarn eslint \"./nextjs-blog/**/*.+(js|jsx|json)\" || prettier --check \"./nextjs-blog/**/*.+(js|jsx|json)\"",
+    "lint:fix": "yarn eslint --fix \"./nextjs-blog/**/*.+(js|jsx|json)\" || prettier --write \"./nextjs-blog/**/*.+(js|jsx|json)\""
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
