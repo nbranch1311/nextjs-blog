@@ -2,7 +2,7 @@
 import { jsx } from "@emotion/core";
 import Head from "next/head";
 import Layout from "../../components/Layout";
-import { content } from "./FirstPageConst";
+import content from "./FirstPageConst";
 
 const FirstPost = () => {
   return (
