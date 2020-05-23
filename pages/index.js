@@ -14,7 +14,7 @@ const Home = () => {
       <main>
         <h1 className="title">
           Read{" "}
-          <Link href="/posts/first-post">
+          <Link href="/posts/FirstPost">
             <a>this page!</a>
           </Link>
         </h1>
