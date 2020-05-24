@@ -21,11 +21,6 @@ const Home = () => {
               <a>this page!</a>
             </Link>
           </h1>
-
-          <p className="description">
-            Get started by editing <code>pages/index.js</code>
-          </p>
-
           <div className="grid">
             <Card
               href="https://nextjs.org/docs"
@@ -50,58 +45,22 @@ const Home = () => {
           </div>
         </main>
 
-        <footer>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered by{" "}
-            <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-          </a>
-        </footer>
-
         <style jsx>{`
           .container {
-            min-height: 100vh;
             padding: 0 0.5rem;
             display: flex;
+            flex: 1 0 auto;
             flex-direction: column;
             justify-content: center;
             align-items: center;
           }
 
           main {
-            padding: 5rem 0;
             flex: 1;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-          }
-
-          footer {
-            width: 100%;
-            height: 100px;
-            border-top: 1px solid #eaeaea;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-
-          footer img {
-            margin-left: 0.5rem;
-          }
-
-          footer a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-
-          a {
-            color: inherit;
-            text-decoration: none;
           }
 
           .title a {
@@ -116,7 +75,7 @@ const Home = () => {
           }
 
           .title {
-            margin: 0;
+            margin: 2rem;
             line-height: 1.15;
             font-size: 4rem;
           }
@@ -131,23 +90,13 @@ const Home = () => {
             font-size: 1.5rem;
           }
 
-          code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-              DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-          }
-
           .grid {
             display: flex;
             align-items: center;
             justify-content: center;
+            margin: 2rem;
             flex-wrap: wrap;
-
             max-width: 800px;
-            margin-top: 3rem;
           }
 
           .logo {

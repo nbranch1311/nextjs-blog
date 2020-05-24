@@ -8,7 +8,9 @@
     "start": "next start",
     "commit": "git-cz",
     "lint": "yarn eslint \"./nextjs-blog/**/*.+(js|jsx|json)\" || prettier --check \"./nextjs-blog/**/*.+(js|jsx|json)\"",
-    "lint:fix": "yarn eslint --fix \"./nextjs-blog/**/*.+(js|jsx|json)\" || prettier --write \"./nextjs-blog/**/*.+(js|jsx|json)\""
+    "lint:fix": "yarn eslint --fix \"./nextjs-blog/**/*.+(js|jsx|json)\" || prettier --write \"./nextjs-blog/**/*.+(js|jsx|json)\"",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
@@ -20,6 +22,12 @@
     "yarn": "^1.22.4"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "babel-loader": "^8.1.0",
     "eslint": "^7.0.0",
     "eslint-config-google": "^0.14.0",
     "eslint-plugin-react": "^7.20.0"
