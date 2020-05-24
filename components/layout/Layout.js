@@ -3,7 +3,7 @@ import { jsx } from "@emotion/core";
 import PropTypes from "prop-types";
 import useStyle from "./LayoutStyles";
 import Head from "next/head";
-import utilStyles from "../styles/utils.module.css";
+import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 
 const name = "Nicholas Branch";
@@ -70,7 +70,7 @@ const Layout = ({ children, home }) => {
 };
 
 Layout.propTypes = {
-  /**Elements to be rendered in Layout */
+  /** Elements to be rendered in Layout */
   children: PropTypes.node,
   /** Boolean prop to adjust the size of the title and the image */
   home: PropTypes.bool,

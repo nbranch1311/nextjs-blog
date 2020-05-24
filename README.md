@@ -14,9 +14,9 @@ some bash command
 ## Usage
 
 ```javascript
-import foobar
+import foo from "./bar";
 
-const somethingCool = 'me';
+const somethingCool = "me";
 ```
 
 ## Contributing
@@ -29,8 +29,8 @@ Make a change
 
 ##To Do List
 
-Create theme context
-Create layout context
-Take that silly in-line styling out of the index.js
-Ask Matt or Jonny help setting up EsLint
-Create component directory
+Make site more personal
+Create style tokens
+Start first project: ThemeContext
+Start second project: LaayoutContext
+Take that silly in-line styling out of the top level index.js

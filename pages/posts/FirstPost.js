@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
 import Head from "next/head";
-import Layout from "../../components/Layout";
+import Layout from "../../components/layout/Layout";
 
 const FirstPost = () => {
   return (
