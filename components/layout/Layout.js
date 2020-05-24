@@ -46,14 +46,7 @@ const Layout = ({ children, home }) => {
           </>
         )}
       </header>
-      <div>{children}</div>
-      {!home && (
-        <div className={wrapper.backToHome}>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </div>
-      )}
+      <div css={wrapper.content}>{children}</div>
       <Footer />
     </div>
   );
