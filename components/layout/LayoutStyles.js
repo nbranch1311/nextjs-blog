@@ -5,9 +5,10 @@ export const buildStyle = () => {
     wrapper: {
       base: {
         container: {
-          maxWidth: "36rem",
+          display: "flex",
+          flexDirection: "column",
           padding: "0 1rem",
-          margin: "3rem auto 6rem",
+          margin: "3rem auto 0",
         },
         header: {
           display: "flex",
