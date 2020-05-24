@@ -9,38 +9,33 @@ const Home = () => {
   return (
     <Layout home>
       <div className="container">
-        <Head>
-          <title>Create Next App</title>
-          <link rel="icon" href="/favicon.ico" />
-        </Head>
-
         <main>
           <h1 className="title">
-            Read{" "}
+            Let's{" "}
             <Link href="/posts/FirstPost">
-              <a>this page!</a>
+              <a>dive right in!</a>
             </Link>
           </h1>
           <div className="grid">
             <Card
-              href="https://nextjs.org/docs"
-              header="Documentation"
-              description="Find in-depth information about Next.js features and API."
+              href="https://github.com/nbranch1311/nicks-portfolio"
+              header="Github Repo"
+              description="See what's going on behind the scene and how I built this site."
             />
             <Card
-              href="https://nextjs.org/learn"
-              header="Learn"
-              description="Learn about Next.js in an interactive course with quizzes!"
+              href="https://trello.com/b/NNsObWky/portfolio-site"
+              header="Trello Board"
+              description="I have to stay active, organized, and goal oriented. Checkout what I'm up to."
             />
             <Card
-              href="https://github.com/zeit/next.js/tree/master/examples"
-              header="Examples"
-              description="Discover and deploy boilerplate example Next.js projects."
+              href="https://storybook.js.org/"
+              header="Storybook Library"
+              description="Sometimes just seeing code isn't enough. I'm a visual learner."
             />
             <Card
-              href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              header="Deploy"
-              description="Instantly deploy your Next.js site to a public URL with Vercel."
+              href="https://docs.google.com/document/d/113i6Ai9rDQf8JIXx5cvwaEGfl1jXqhBD8lRoOvRPfqo/edit?usp=sharing"
+              header="Resume"
+              description="If you are looking to hire me you might want to see I am the real deal."
             />
           </div>
         </main>
@@ -114,6 +109,9 @@ const Home = () => {
         <style jsx global>{`
           html,
           body {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
             padding: 0;
             margin: 0;
             font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,

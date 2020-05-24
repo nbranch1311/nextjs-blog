@@ -10,6 +10,8 @@ export const buildStyle = () => {
         borderTop: "1px solid black",
         height: "4.8125rem",
         justifyContent: "center",
+        alignItems: "center",
+        flexShrink: 0,
       },
     },
   };
@@ -25,16 +27,5 @@ const useStyle = () => {
     },
   };
 };
-
-// footer a {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//   }
-
-//   a {
-//     color: inherit;
-//     text-decoration: none;
-//   }
 
 export default useStyle;

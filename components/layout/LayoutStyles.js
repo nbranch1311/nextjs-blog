@@ -7,8 +7,7 @@ export const buildStyle = () => {
         container: {
           display: "flex",
           flexDirection: "column",
-          padding: "0 1rem",
-          margin: "3rem auto 0",
+          height: "100vh",
         },
         header: {
           display: "flex",
@@ -18,13 +17,15 @@ export const buildStyle = () => {
         headerImage: {
           width: "6rem",
           height: "6rem",
+          margin: "3rem 0",
         },
         headerHomeImage: {
           width: "8rem",
           height: "8rem",
+          margin: "3rem 0",
         },
-        backToHome: {
-          margin: "3rem 0 0",
+        content: {
+          flex: "1 0 auto",
         },
       },
     },

@@ -8,7 +8,7 @@ const Card = ({ href = "/", header, description }) => {
 
   return (
     <div css={wrapper}>
-      <a href={href}>
+      <a href={href} target="_blank" rel="noreferrer">
         <h3>{header}</h3>
         <p>{description}</p>
       </a>
