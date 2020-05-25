@@ -25,7 +25,7 @@ const Home = () => {
             <Card
               href="https://trello.com/b/NNsObWky/portfolio-site"
               header="Trello Board"
-              description="I have to stay active, organized, and goal oriented. Checkout what I'm up to."
+              description="I have to stay active, organized, and goal oriented. Check out what I'm up to."
             />
             <Card
               href="https://storybook.js.org/"
