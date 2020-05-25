@@ -10,7 +10,7 @@ export const buildStyle = () => {
         textAlign: "left",
         color: "inherit",
         textDecoration: "none",
-        border: "1px solid #eaeaea",
+        boxShadow: "0 0 6px grey",
         borderRadius: "10px",
         transition: "color 0.15s ease, border-color 0.15s ease",
         "&:hover": {

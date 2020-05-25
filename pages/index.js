@@ -30,12 +30,12 @@ const Home = () => {
             <Card
               href="https://storybook.js.org/"
               header="Storybook Library"
-              description="Sometimes just seeing code isn't enough. I'm a visual learner."
+              description="Sometimes seeing is believing. Get a feel for the components I made."
             />
             <Card
               href="https://docs.google.com/document/d/113i6Ai9rDQf8JIXx5cvwaEGfl1jXqhBD8lRoOvRPfqo/edit?usp=sharing"
               header="Resume"
-              description="If you are looking to hire me you might want to see I am the real deal."
+              description="If you're looking to hire me you might want to see that I'm the real deal."
             />
           </div>
         </main>
