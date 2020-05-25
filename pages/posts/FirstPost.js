@@ -5,7 +5,7 @@ import Layout from "../../components/layout/Layout";
 
 const FirstPost = () => {
   const content = `Howdy, I'm Nick. I'm a Front End Software Engineer.
-  I made this site in response to the impact of COVID-19. This site is still majorily underway.
+  I made this site in response to the impact of COVID-19. This site is still majorly underway.
   For now if you want to see my work check out my GitHub.
   If you want see what I am working on check out my Trello Board`;
   return (
