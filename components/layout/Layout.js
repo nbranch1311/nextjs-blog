@@ -2,13 +2,12 @@
 import { jsx } from "@emotion/core";
 import PropTypes from "prop-types";
 import useStyle from "./LayoutStyles";
-import Head from "next/head";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 import Footer from "../footer/Footer";
 
 const name = "Nicholas Branch";
-export const siteTitle = "Nick's Sample Website";
+export const siteTitle = "Nick's Portfolio Website";
 
 const Layout = ({ children, home }) => {
   const { wrapper } = useStyle();

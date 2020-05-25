@@ -7,7 +7,7 @@ export const buildStyle = () => {
         zIndex: 3,
         display: "flex",
         padding: "1.5rem 2.5rem",
-        borderTop: "1px solid black",
+        boxShadow: "0 0 10px grey",
         height: "4.8125rem",
         justifyContent: "center",
         alignItems: "center",
