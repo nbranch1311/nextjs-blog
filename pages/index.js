@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx } from "@emotion/core";
-import Head from "next/head";
 import Link from "next/link";
 import Layout from "../components/layout/Layout";
 import Card from "../components/card/Card";
