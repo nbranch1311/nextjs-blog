@@ -14,16 +14,19 @@
   },
   "dependencies": {
     "@emotion/core": "^10.0.28",
+    "@storybook/preset-create-react-app": "^3.0.0",
     "emotion": "^10.0.27",
     "gray-matter": "^4.0.2",
     "next": "9.3.5",
-    "react": "16.13.1",
+    "react": "^16.13.1",
     "react-dom": "16.13.1",
+    "react-scripts": "^3.4.1",
     "yarn": "^1.22.4"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",
     "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
     "@storybook/addons": "^5.3.19",
     "@storybook/react": "^5.3.19",
