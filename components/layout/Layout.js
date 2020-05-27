@@ -5,6 +5,7 @@ import useStyle from "./LayoutStyles";
 import utilStyles from "../../styles/utils.module.css";
 import Link from "next/link";
 import Footer from "../footer/Footer";
+import Avatar from "../avatar/Avatar";
 
 const name = "Nicholas Branch";
 export const siteTitle = "Nick's Portfolio Website";
@@ -15,35 +16,7 @@ const Layout = ({ children, home }) => {
   return (
     <div css={wrapper.container}>
       <header css={wrapper.header}>
-        {home ? (
-          <>
-            <img
-              src="/images/profile.jpg"
-              css={wrapper.headerHomeImage}
-              className={utilStyles.borderCircle}
-              alt={name}
-            />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              <a>
-                <img
-                  src="/images/profile.jpg"
-                  css={wrapper.headerImage}
-                  className={utilStyles.borderCircle}
-                  alt={name}
-                />
-              </a>
-            </Link>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
-              </Link>
-            </h2>
-          </>
-        )}
+        <Avatar home={home} />
       </header>
       <div css={wrapper.content}>{children}</div>
       <Footer />
