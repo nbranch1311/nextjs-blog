@@ -8,6 +8,7 @@ import Link from "next/link";
 const name = "Nicholas Branch";
 export const siteTitle = "Nick's Portfolio Website";
 
+// props missing, img, alt
 const Avatar = ({ home }) => {
   const { wrapper } = useStyle();
 
